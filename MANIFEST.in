@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include touchmagix *.css
+recursive-include touchmagix *.csv
+recursive-include touchmagix *.html
+recursive-include touchmagix *.ico
+recursive-include touchmagix *.js
+recursive-include touchmagix *.json
+recursive-include touchmagix *.md
+recursive-include touchmagix *.png
+recursive-include touchmagix *.py
+recursive-include touchmagix *.svg
+recursive-include touchmagix *.txt
+recursive-exclude touchmagix *.pyc
